@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(image/WhatsApp\ Image\ 2025-04-21\ at\ 12.00.21.jpeg);
+    background-size: 650px;
+    color: #ff8800;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quiz-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(255, 185, 80);
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+  }
+  
+  #question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    display: block;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .option:hover {
+    background-color: #ffba25;
+    border-radius: 50px;
+  }
+  
+  #next-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ff8800;
+    border-radius: 50px;
+  }
+  
+  #feedback {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  #score-box {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  

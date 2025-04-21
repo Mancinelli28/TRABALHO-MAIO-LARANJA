@@ -1,0 +1,121 @@
+/* ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image:
+    url(image/ChatGPT\ Image\ 21\ de\ abr.\ de\ 2025\,\ 13_02_32.png);
+    background-size: 1350px;
+
+}
+.interface{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+/* ESTILO DO CABEÇALHO*/
+
+header{
+    margin: auto;
+    padding: 40px 4%;
+    text-align: center;
+    
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    padding: 0 60px;
+    text-align: center ;
+}
+
+header a:hover{
+     color: black;
+     transform: scale(2)
+
+}
+
+
+header .maio-contato button{
+
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(255, 134, 35);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .maio-contato button{
+    box-shadow: 0px 0px 8px #ffaf4d;
+}
+.interface img{
+
+    width: 60px;
+    
+}
+
+/* tentativa de fazer um card */
+
+.card-vertical {
+    width: 800px;
+    height: auto;
+    background-color: beige;
+    box-shadow: 0 4px 10px rgb(218, 131, 0);
+    border-radius: 30px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .card-vertical h2 {
+    margin-top: 0;
+    color: #2e2c2c;
+    text-align: center;
+  }
+
+  .card-vertical p {
+    color: #5e5e5e;
+    padding: 20px;
+    word-spacing: 4px;
+    text-align:start;
+
+}
+
+.card-vertical li {
+    color: #5e5e5e;
+    padding: 20px;
+    word-spacing: 4px;
+    text-align:start;
+}
+
+.card-vertical h3 {
+    color: #252525;
+    padding: 20px;
+    word-spacing: 4px;
+    text-align:center;
+}
+
+/* VIDEO */
+
+.teste001{
+    text-align: center;
+    margin:30px auto;
+    display: block;
+}
+
